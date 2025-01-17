@@ -1,0 +1,90 @@
+/* General Styles */
+.resume {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
+    color: black;
+    padding: 20px;
+    background-color: #bdfb04; /* Adjusted background color */
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+.education h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.education p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Skills Section */
+.skills p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Work Experience Section */
+.experience h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experience p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+.projects h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.projects p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.projects a {
+    color: black;
+    text-decoration: underline;
+}
+
+.projects a:hover {
+    text-decoration: none;
+}
