@@ -1,0 +1,65 @@
+/* General app container styles */
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  font-size: 30px;  /* Increased font size */
+  font-weight: bold;  /* Made the font bold */
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field styles */
+.input-field {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;  /* Added margin-bottom for spacing */
+}
+
+/* Button styles for adding tasks */
+.add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #304adb;  /* Pastel blue background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;  /* Added space between button and task list */
+}
+
+/* Button styles for deleting tasks */
+.delete-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #FF4C4C;  /* More vibrant red */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Task item styles */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
